@@ -1,0 +1,196 @@
+*{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+/*stylisation body*/
+/* stylisation header*/
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: bold;
+    width: 30%;
+    background-color: #ffa92e;
+}
+.logo img{
+    width: 20%;
+    border-radius: 10px;
+}
+nav a{
+    font-size: 30px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+header{
+    display: flex;
+}
+nav{
+    background-image: url(../images/Cheetahs\ in\ different\ poses\ cartoon\ illustration\ set.jpg);
+    font-size: 20px;
+    background-size: 21%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/*stylisation main*/
+.actualite img{
+    display: flex;
+    width: 200px;
+}
+.actualite p{
+    margin: 10px;
+}
+.actualite{
+    display:flex ;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+.bloc3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid;
+    border-color: black;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-bottom: 90px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.projet_achevé img{
+    display: flex;
+    width: 200px;
+}
+.projet_achevé{
+    display:flex ;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+.projet_achevé p{
+    margin: 10px;
+}
+.bloc2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid;
+    border-color: black;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    padding-bottom: 10px;
+}
+.projet_en_cours img{
+    width: 200px;
+}
+.projet_en_cours{
+    display:flex ;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+.projet_en_cours p{
+    margin: 10px;
+}
+.bloc1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid;
+    border-color: black;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    margin-left: 20px;
+}
+.infos{
+    display: flex;
+    background-color: #0b4d4c;
+    color: white;
+}
+h1{
+    background-color: #0b4d4c;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 40px;
+}
+/*stylisation annimation*/
+.img{
+    width: 400px;
+    border-radius: 50px;
+}
+.animation2{
+    width: 100px;
+    height: 100px;
+    background-color:#ffa92e;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 
+        background-color 1s linear,
+        transform 1s linear,
+        border-radius 1s linear,
+        width 1s linear,
+        height 1s linear;
+}
+.animation2:hover{
+    background-color:red;
+    width: 300px;
+    height: 300px;
+    transform: rotate(360deg);
+    border-radius: 100%;
+    font-size: 24px;
+    font-weight: bold
+    
+}
+.animation2 p{
+    opacity: 0.1;
+    text-align: center;
+}
+.animation2:hover p{
+    opacity: 1;
+    color: white;
+}
+.animation{
+    background-color: #0b4d4c;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+
+/*stylisation footer*/
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #0b4d4c;
+    color: white;
+    height: 50px;
+    font-size: 24px;
+}
+a{
+    color: white;
+}
+/*responsive*/
+@media(max-width: 600px){
+    .infos,.animation{
+        display: flex;
+        flex-direction: column;
+        padding-right: 20px;
+    }
+}

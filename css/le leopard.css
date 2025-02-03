@@ -1,0 +1,164 @@
+*{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+/*stylisation body*/
+/* stylisation header*/
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: bold;
+    width: 30%;
+    background-color: #ffa92e;
+}
+.logo img{
+    width: 20%;
+    border-radius: 10px;
+}
+nav a{
+    font-size: 30px;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+header{
+    display: flex;
+}
+nav{
+    background-image: url(../images/Cheetahs\ in\ different\ poses\ cartoon\ illustration\ set.jpg);
+    font-size: 20px;
+    background-size: 21%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*stylisation main*/
+.photo{
+    width: 50%;
+    height: 30%;
+    padding-top: 330px;
+    padding-left: 50px;
+
+}
+.photo img{
+    width: 100%;
+    border-radius: 30px;
+}
+.texte{
+    display: flex;
+    width: 75%;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+.texte2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+}
+.texte2 img{
+    width: 100%;
+    padding: 20px;
+}
+.texte3{
+    margin: 25px;
+    padding: 5px;
+    background-color:  #ffa92e;
+    color: red;
+    font-size: 20px;
+}
+.carte{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+h1{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 70px;
+}
+h2,h4{
+    padding: 10px;
+}
+.corps{
+    display: flex;
+    /*flex-wrap: wrap;*/
+    flex-direction: row;
+    width: 100%;
+    background-color: #0b4d4c;
+    color: white;
+}
+.container{
+    padding-top: 100px;
+
+}
+.caracteristiques{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h6{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-size: 20px;
+}
+li p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+summary{
+    background-color:#ffa92e ;
+    border-radius: 30px;
+    color: black;
+    cursor: pointer;
+    transition: 0.5s;
+    text-align: center;
+    font-size: 40px;
+    padding: 5px;
+}
+
+/*stylisation footer*/
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #0b4d4c;
+    color: white;
+    height: 50px;
+    font-size: 24px;
+}
+a{
+    color: white;
+}
+/*responsive*/
+@media(max-width: 600px){
+    .corps{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container{
+        padding-bottom: 20px;
+    }
+    .photo{
+        margin-top: -270px;
+    }
+}
